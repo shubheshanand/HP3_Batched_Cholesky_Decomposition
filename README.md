@@ -1,5 +1,4 @@
 # Batched Cholesky Decomposition
-# High Process Parallel Programming
 
 ## Link to Dataset:
 https://drive.google.com/file/d/1hCHJI6G5UZLa2_zZOrg9RIs2T7meQH9j/view?usp=sharing
