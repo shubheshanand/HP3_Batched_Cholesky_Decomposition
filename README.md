@@ -9,17 +9,17 @@ https://docs.google.com/document/d/e/2PACX-1vTcik1DFqdVNNmPJan4CBWCr__KqvCSRVTkn
 # make command
 For Right looking
 ```
-make right_partA input_file=./Part\ A/dataset/mat_256.txt output_file=output.txt
+make right_partA input_file=./Part\ A/Dataset/mat_256.txt output_file=output.txt
 ```
 
 For Left looking
 ```
-make left_partA input_file=./Part\ A/dataset/mat_256.txt output_file=output.txt
+make left_partA input_file=./Part\ A/Dataset/mat_256.txt output_file=output.txt
 ```
 
 For Top looking
 ```
-make top_partA input_file=./Part\ A/dataset/mat_256.txt output_file=output.txt
+make top_partA input_file=./Part\ A/Dataset/mat_256.txt output_file=output.txt
 ```
 
 For Cleaning the excutables file
