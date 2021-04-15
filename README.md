@@ -9,6 +9,6 @@ https://docs.google.com/document/d/e/2PACX-1vTcik1DFqdVNNmPJan4CBWCr__KqvCSRVTkn
 # make command
 make right_partA input_file.txt output_file.txt <br />
 
-# Format of Input File for right_partA
+## Format of Input File for right_partA
 First Line: Size of Matrix <br />
 Rest all Lines: Elements of the Matrix in Row Major Format <br />
