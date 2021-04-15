@@ -12,6 +12,6 @@ make right_partA input_file.txt output_file.txt <br />
 ## Sample make command
 make right_partA ./Dataset/mat_256.txt output_file.txt <br />
 
-## Format of Input File for right_partA
+## Format of Input File for partA
 First Line: Size of Matrix <br />
 Rest all Lines: Elements of the Matrix in Row Major Format <br />
