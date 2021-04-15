@@ -8,9 +8,13 @@ https://docs.google.com/document/d/e/2PACX-1vTcik1DFqdVNNmPJan4CBWCr__KqvCSRVTkn
 
 # make command
 make right_partA input_file.txt output_file.txt <br />
+make left_partA input_file.txt output_file.txt <br />
+make top_partA input_file.txt output_file.txt <br />
 
 ## Sample make command
-make right_partA ./Dataset/mat_256.txt output_file.txt <br />
+make right_partA ./dataset/mat_256.txt output_file.txt <br />
+make left_partA ./dataset/mat_256.txt output_file.txt <br />
+make top_partA ./dataset/mat_256.txt output_file.txt <br />
 
 ## Format of Input File for partA
 First Line: Size of Matrix <br />
