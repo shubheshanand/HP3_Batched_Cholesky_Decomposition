@@ -61,3 +61,8 @@ make clean
 ## Format of Input File for partA
 First Line: Size of Matrix <br />
 Rest all Lines: Elements of the Matrix in Row Major Format <br />
+
+## Format of Input File for partB
+First Line: Number of Matrices <br />
+Second Line: Size of Matrix <br />
+Rest all Lines: Elements of the Matrix in Row Major Format <br />
