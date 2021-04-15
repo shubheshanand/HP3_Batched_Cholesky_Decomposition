@@ -1,3 +1,6 @@
+# make command
+make right input_file.txt output_file.txt <br />
+
 # Command Lines
 Compile Command: nvcc main_right_looking.cu -o rl_A <br />
 Run Command: ./rl_A input_file.txt output_file.txt <br />
