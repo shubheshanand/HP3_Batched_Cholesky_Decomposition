@@ -22,7 +22,7 @@ For Top looking
 make top input_file=./Part\ A/dataset/mat_256.txt output_file=output.txt
 ```
 
-For Cleaning the exexcutables file
+For Cleaning the excutables file
 ```
 make clean
 ```
