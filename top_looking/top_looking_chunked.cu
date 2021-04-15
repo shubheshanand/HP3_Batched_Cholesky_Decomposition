@@ -7,8 +7,8 @@
 #define TILE_SIZE 8
 #define chunk_size 32
 
-char input_file[] = "InputFiles/num_1024_dim_50.txt";
-char output_file[] = "./output.txt";
+// char input_file[] = "InputFiles/num_1024_dim_50.txt";
+// char output_file[] = "./output.txt";
 
 
 /*The algorithm and code given in the main reference paper have been followed*/
@@ -284,13 +284,13 @@ __global__ void launch_kernel(float* d_mat, int N, int M , int shared_size_singl
        
 }
 
-int main()
+int main(int argc,char *argv[])
 {
     // READ FROM THE INPUT FILE
 
 
     FILE *fptr;
-    fptr = fopen(input_file, "r");
+    fptr = fopen(argv[1], "r");
     int num_of_matrices, dim_of_matrix;
     fscanf(fptr, "%d", &num_of_matrices);
     fscanf(fptr, "%d", &dim_of_matrix);
@@ -398,7 +398,7 @@ int main()
 
 
     FILE *fptr1;
-    fptr1 = fopen(output_file, "w+");
+    fptr1 = fopen(argv[2], "w+");
     float write_element;
     fprintf(fptr1, "%d\n", num_of_matrices);
     fprintf(fptr1, "%d\n", dim_of_matrix);

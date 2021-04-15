@@ -6,8 +6,8 @@
 
 #define TILE_SIZE 32 // NB // Block SIZE
 
-char input_file[] = "InputFiles/num_1024_dim_30.txt";
-char output_file[] = "./output.txt";
+// char input_file[] = "InputFiles/num_1024_dim_30.txt";
+// char output_file[] = "./output.txt";
 
 //AUX FUNCTIONS
 
@@ -420,14 +420,14 @@ __global__ void left_looking_kernel_less_mem(float *g_in, int N, int M , int sha
 //MAIN PROGRAM
 
 
- int main() {
+ int main(int argc,char *argv[]) {
 
 
     // READ FROM THE INPUT FILE
 
 
     FILE *fptr;
-    fptr = fopen(input_file, "r");
+    fptr = fopen(argv[1], "r");
     int num_of_matrices, dim_of_matrix;
     fscanf(fptr, "%d", &num_of_matrices);
     fscanf(fptr, "%d", &dim_of_matrix);
@@ -558,7 +558,7 @@ __global__ void left_looking_kernel_less_mem(float *g_in, int N, int M , int sha
 
 
     FILE *fptr1;
-    fptr1 = fopen(output_file, "w+");
+    fptr1 = fopen(argv[2], "w+");
     float write_element;
     fprintf(fptr1, "%d\n", num_of_matrices);
     fprintf(fptr1, "%d\n", dim_of_matrix);
