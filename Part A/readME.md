@@ -1,19 +1,19 @@
 # make command
 For Right looking
 ```
-make right input_file=./dataset/mat_256.txt output_file=output.txt
+make right input_file=./Dataset/mat_256.txt output_file=output.txt
 make clean_right
 ```
 
 For Left looking
 ```
-make left input_file=./dataset/mat_256.txt output_file=output.txt
+make left input_file=./Dataset/mat_256.txt output_file=output.txt
 make clean_left
 ```
 
 For Top looking
 ```
-make top input_file=./dataset/mat_256.txt output_file=output.txt
+make top input_file=./Dataset/mat_256.txt output_file=output.txt
 make clean_top
 ```
 
