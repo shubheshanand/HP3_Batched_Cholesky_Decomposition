@@ -10,7 +10,7 @@ https://docs.google.com/document/d/e/2PACX-1vTcik1DFqdVNNmPJan4CBWCr__KqvCSRVTkn
 make right_partA input_file.txt output_file.txt <br />
 
 ## Sample make command
-make right_partA /Dataset/mat_256.txt output_file.txt <br />
+make right_partA ./Dataset/mat_256.txt output_file.txt <br />
 
 ## Format of Input File for right_partA
 First Line: Size of Matrix <br />
