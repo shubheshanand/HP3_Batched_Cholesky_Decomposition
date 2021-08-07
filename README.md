@@ -1,5 +1,8 @@
 # Batched Cholesky Decomposition
 
+Paper: "Autotuning Batch Cholesky Factorization in CUDA with Interleaved Layout of Matrices" by Gates et al., published in IPDPS Workshop 2017:
+http://www.netlib.org/utk/people/JackDongarra/PAPERS/autotuning-batch-cholesky-ipdps-2017.pdf
+
 ## Link to Dataset:
 https://drive.google.com/file/d/1hCHJI6G5UZLa2_zZOrg9RIs2T7meQH9j/view?usp=sharing
 
