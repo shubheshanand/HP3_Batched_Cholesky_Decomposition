@@ -1,5 +1,7 @@
 # Batched Cholesky Decomposition
 
+High Performance Parallel Programming, IIT KGP Spring 2021 Group Project
+
 ## Link to Dataset:
 https://drive.google.com/file/d/1hCHJI6G5UZLa2_zZOrg9RIs2T7meQH9j/view?usp=sharing
 
